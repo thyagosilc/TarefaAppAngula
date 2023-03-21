@@ -65,11 +65,12 @@
 
         <div class="form-group">
           <label>Data</label>
-          <input
-            type="text"
-            class="form-control form-control-sm"
-            formControlName="data"
-          />
+
+          <span class="input-group">
+            <input name="data" id="data" type="date" class="form-control form-control-sm" formControlName="data"
+              ui-mask="99/99/9999" placeholder="DD/MM/YYYY"/>
+          </span>
+
         </div>
 
         <div class="form-group">
