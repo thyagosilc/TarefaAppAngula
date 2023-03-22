@@ -22,7 +22,7 @@
 
       <tr *ngFor="let tarefa of tarefas">
         <td>{{ tarefa.descricao }}</td>
-        <td>{{ tarefa.data }}</td>
+        <td> {{tarefa.data | date : 'dd/MM/yyyy'}}</td>
         <td>{{ tarefa.status }}</td>
 
         <td>

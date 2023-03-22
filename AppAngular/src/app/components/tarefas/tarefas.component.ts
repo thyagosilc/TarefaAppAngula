@@ -1,3 +1,4 @@
+import { formatDate } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { BsModalRef } from 'ngx-bootstrap/modal';
@@ -56,7 +57,7 @@ export class TarefasComponent {
       this.formulario = new FormGroup({
         id: new FormControl(resultado.id),
         descricao: new FormControl(resultado.descricao),
-        data: new FormControl(resultado.data),
+        data: new FormControl(formatDate(new Date(resultado.data), 'yyyy-MM-dd', 'en_US')),
         status: new FormControl(resultado.status),
       });
     });
