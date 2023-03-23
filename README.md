@@ -26,4 +26,4 @@ Executar a API do back-end. existe um passo a passo na API no arquivo README.md.
 
 
 Resultado: 
-![image](https://user-images.githubusercontent.com/9157652/227249854-1b67c8da-145a-47d1-8bc5-e70ed2af0d29.png)
+![image](https://user-images.githubusercontent.com/9157652/227251121-f2fb1bf9-ca4c-4667-ade2-643ceb437f1a.png)
