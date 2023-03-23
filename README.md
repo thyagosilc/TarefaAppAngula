@@ -22,7 +22,7 @@ Executar o comando: ng serve
 
 
 4 PASSO: 
-Executar a API do back-end. existe um passo a passo na API no arquivo README.md.
+Executar a API do back-end. existe um passo a passo no arquivo README.md da API.
 
 
 Resultado: 
