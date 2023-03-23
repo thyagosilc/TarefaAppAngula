@@ -18,6 +18,7 @@ atualmente está apontando para a porta{24114}.
 
 3 PASSO: 
 Executar o comando: ng serve
+![image](https://user-images.githubusercontent.com/9157652/227239848-9bcab4ff-8acc-4a7d-bc25-9e4c40f09bd2.png)
 
 
 4 PASSO: 
